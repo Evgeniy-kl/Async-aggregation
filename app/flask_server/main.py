@@ -1,9 +1,7 @@
-import os
-
 from flask import Flask, Response, request
 
-from validate import torch_image
 from file_reader import get_label
+from validate import torch_image
 
 app = Flask(__name__)
 
